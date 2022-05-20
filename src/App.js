@@ -15,7 +15,7 @@ const App = () => {
       <GlobalProvider>
         <Router>
           <Switch>
-            <Route exact path="/react-crud" component={Home} />
+            <Route exact path="/" component={Home} />
             <Route path="/add" component={AddUser} />
             <Route path="/edit/:id" component={EditUser} />
           </Switch>
